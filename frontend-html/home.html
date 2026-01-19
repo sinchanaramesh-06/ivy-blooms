@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy Blooms | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Ivy Blooms</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Landing</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+        <h2>Welcome to Ivy Blooms 🌿</h2>
+        <p>Select plants to add to your cart.</p>
+
+        <div class="plant-list">
+            <div class="plant">
+                <p>Snake Plant</p>
+                <button onclick="addToCart('Snake Plant')">Add</button>
+            </div>
+
+            <div class="plant">
+                <p>Peace Lily</p>
+                <button onclick="addToCart('Peace Lily')">Add</button>
+            </div>
+
+            <div class="plant">
+                <p>Monstera</p>
+                <button onclick="addToCart('Monstera')">Add</button>
+            </div>
+        </div>
+
+        <p id="cartStatus">Cart is empty</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ivy Blooms</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

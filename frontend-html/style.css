@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+header {
+    background-color: #1f3d2b;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #e6f2ec;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e6f2ec;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to bottom, #2f5d44, #1f3d2b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 12px 25px;
+    background-color: #a8d5ba;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Plants Section */
+.plants {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.plant-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #e6f2ec;
+    padding: 30px;
+    width: 180px;
+    border-radius: 6px;
+}
+
+/* About Section */
+.about {
+    padding: 60px 40px;
+    background-color: #f4f7f6;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #1f3d2b;
+    color: #e6f2ec;
+    text-align: center;
+    padding: 15px;
+}

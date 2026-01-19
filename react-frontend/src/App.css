@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #1f3d2b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.hero {
+  height: 80vh;
+  background-color: #e6f2ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  background-color: #2f5d44;
+  color: white;
+  cursor: pointer;
+}
